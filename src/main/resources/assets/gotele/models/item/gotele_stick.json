@@ -1,9 +1,8 @@
 {
-	"__comment": "Designed by Paloma55 with",
 	"textures": {
 		"particle": "#texture",
-		"texture": "definitive_weapon:item/gotele_stick_main",
-		"gotele": "definitive_weapon:item/gotele_stick_gotele"
+		"texture": "gotele:item/gotele_stick_main",
+		"gotele": "gotele:item/gotele_stick_gotele"
 	},
 	"elements": [ 	 
 		{
