@@ -34,7 +34,7 @@ public class GoteleMod {
         ITEMS.register(modEventBus);
         CREATIVE_MODE_TABS.register(modEventBus);
         
-        modContainer.registerConfig(ModConfig.Type.SERVER, GoteleConfig.SPEC);
+        modContainer.registerConfig(ModConfig.Type.SERVER, GoteleConfig.PAIR.getValue());
         modContainer.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
     }
 

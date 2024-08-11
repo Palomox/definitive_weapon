@@ -33,7 +33,7 @@ public class GoteleStick extends SwordItem{
 	@Override
 	public boolean onEntitySwing(ItemStack stack, LivingEntity entity) {
 		if (entity instanceof Player player) {
-			final double reach = GoteleConfig.stickRange; 
+			final double reach = GoteleConfig.PAIR.getKey().stickRange.get(); 
 	        Vec3 viewVec = entity.getViewVector(1.0F);
 	        Vec3 eyeVec = entity.getEyePosition(1.0F);
 	        Vec3 targetVec = eyeVec.add(viewVec.x * reach, viewVec.y * reach, viewVec.z * reach);
